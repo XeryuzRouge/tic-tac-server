@@ -1,0 +1,517 @@
+GET /logs HTTP/1.1
+GET /logs HTTP/1.1
+PUT /these HTTP/1.1
+HEAD /requests HTTP/1.1
+GET /logs HTTP/1.1
+POST /logs HTTP/1.1
+GET /new_file.txt HTTP/1.1
+PUT /new_file.txt HTTP/1.1
+GET /new_file.txt HTTP/1.1
+PUT /new_file.txt HTTP/1.1
+GET /new_file.txt HTTP/1.1
+DELETE /new_file.txt HTTP/1.1
+GET /new_file.txt HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET /no_file_here.txt HTTP/1.1
+GET /abcdefghijklmnop.jpg HTTP/1.1
+GET /foobar HTTP/1.1
+GET /image.jpeg HTTP/1.1
+GET /image.png HTTP/1.1
+GET /image.jpeg HTTP/1.1
+GET /image.jpeg HTTP/1.1
+GET /image.png HTTP/1.1
+GET /image.gif HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /file1 HTTP/1.1
+POST /file1 HTTP/1.1
+HGBUWUKF /file1 HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /file1 HTTP/1.1
+GET /file2 HTTP/1.1
+HEAD / HTTP/1.1
+HEAD /no_file_here.txt HTTP/1.1
+OPTIONS /file1 HTTP/1.1
+OPTIONS /no_file_here.txt HTTP/1.1
+OPTIONS /logs HTTP/1.1
+GET / HTTP/1.1
+GET /HNAP1/ HTTP/1.1
+GET / HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /patch-content.txt HTTP/1.1
+GET /file2 HTTP/1.1
+GET /favicon.ico HTTP/1.1
+GET /these HTTP/1.1
+GET /image.gif HTTP/1.1
+GET /these HTTP/1.1
+GET /image.jpeg HTTP/1.1
+GET /file1 HTTP/1.1
+GET /favicon.ico HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /image.png HTTP/1.1
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET / HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /favicon.ico HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /foo HTTP/1.1
+POST /foo HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET / HTTP/1.1
+GET /hardcore.html HTTP/1.1
+ /null null
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET / HTTP/1.1
+GET /helloAJAX.txt HTTP/1.1
+ /null null
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+ /null null
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+ /null null
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+ /null null
+GET /text-file.txt HTTP/1.1
+GET /file2 HTTP/1.1
+GET /these HTTP/1.1
+GET /image.gif HTTP/1.1
+ /null null
+GET /hardcore.html HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+POST /TicTacConfiguration.txt HTTP/1.1
+ /null null
+ /null null
+ /null null
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET /aRequest HTTP/1.1
+Range:
+GET /anotherRequest HTTP/1.1
+
+GET / HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /file2 HTTP/1.1
+GET /patch-content.txt HTTP/1.1
+GET /image.gif HTTP/1.1
+GET / HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /hardcore.html HTTP/1.1
+ /null null
+ /null null
+GET / HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /gato HTTP/1.1
+ /null null
+ /null null
+GET / HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /gato HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET / HTTP/1.1
+GET /text-file.txt HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET / HTTP/1.1
+GET /partial_content.txt HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+ /null null
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+ /null null
+GET /gato HTTP/1.1
+GET /hardcore.html HTTP/1.1
+GET /gato HTTP/1.1
+GET /gato HTTP/1.1
+ /null null

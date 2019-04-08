@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="demo">
+<h1>The XMLHttpRequest Object</h1>
+<button type="button" id="Human">Human</button>
+    <button type="button" id="CPU">CPU</button>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+  var player;
+
+  if(this.id == "Human")
+    player = "h";
+
+  if(this.id == "CPU")
+    player = "c";
+
+    $.post("/TicTacConfiguration.txt", player, function(result){
+      $("h1").html(result);
+    });
+  });
+});
+</script>
+
+</body>
+</html>
