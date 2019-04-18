@@ -6,11 +6,9 @@
 <body>
 
 <div id="demo">
-<h1>The XMLHttpRequest Object</h1>
+<h1>Player 1 Human or CPU?</h1>
 <button type="button" id="Human">Human</button>
 <button type="button" id="CPU">CPU</button> <br>
-<button type="button" id="Play">Play</button>
-Play: <input type="text" name="Box" value="">
 </div>
 
 <script>
@@ -24,14 +22,23 @@ $(document).ready(function(){
   if(this.id == "CPU")
     player = "c";
 
-  if(this.id == "Play")
-    player = $('input[name="Box"]').val();
-
     $.post("/gato", player, function(result){
       $("h1").html(result);
+      if (result != "Player 2 Human or CPU?") {
+        $("#Human").remove();
+        $("#CPU").remove();
+      }
     });
   });
 });
+
+function playerInput(box) {
+  $(document).ready(function(){
+  $.post("/gato", box, function(result){
+    $("h1").html(result);
+    });
+  });
+}
 </script>
 
 </body>

@@ -2,8 +2,8 @@
 	(:import tech.dynamic.http_builder.RequestHandler)
 	(:import tech.dynamic.http_messages.RequestMessage)
   (:import tech.dynamic.http_messages.ResponseMessage)
-  (:require [tic-server.http_formatter :as formatter]
-            [tic-server.text :as text]
+  (:require [tic-server.text :as text]
+            [tic-server.tic-tac-display :as tic-tac]
             [clojure.java.io :as io])
 	(:gen-class))
 
@@ -20,7 +20,7 @@
       (text/set-content (.body request))
       (Thread/sleep 1000)
       (.setBody response
-        (formatter/newline-to-br (text/get-content)))
+        (tic-tac/display (text/get-content)))
       response))
 
 (def gato
