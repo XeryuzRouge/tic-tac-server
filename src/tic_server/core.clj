@@ -1,13 +1,15 @@
 (ns tic-server.core
-	(:import tech.dynamic.app.ForeignMain)
-	(:require [tic-server.request-handler :as handler])
+  (:import tech.dynamic.app.ForeignMain)
+  (:require [tic-server.request-handler :as handler])
   (:gen-class))
 
-(def thread
-	(Thread.
-		(fn [] (ForeignMain. 5000 handler/gato))))
+(defn thread [textpipe-directory]
+  (Thread.
+    (fn []
+    (binding [handler/directory (fn [] textpipe-directory)]
+      (println (handler/directory))
+      (ForeignMain. 5000 handler/tic-tac-toe)))))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
-  	(.start thread))
+  (.start (thread (first args))))

@@ -1,17 +1,17 @@
 (ns tic-server.text
-	(:gen-class))
+  (:gen-class))
 
-(def directory
-  "/Users/germanalmaraz/tic-tac-server/tic-tac-toe/Gato_TDD_2/")
+(defn ^:dynamic directory []
+  "textpipe-directory")
 
-(def input
-	(str directory "input.txt"))
+(defn ^:dynamic input []
+  (str (directory) "input.txt"))
 
-(def output
-	(str directory "output.txt"))
+(defn ^:dynamic output []
+  (str (directory) "output.txt"))
 
 (defn ^:dynamic set-content [message]
-  (spit input message))
+  (spit (input) message))
 
 (defn ^:dynamic get-content []
-  (slurp output))
+  (slurp (output)))

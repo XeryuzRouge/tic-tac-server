@@ -17,21 +17,28 @@
 (defn response-content []
   (str (* 2 (Integer. request-content))))
 
+(defn input-dummy []
+  (str "resources/input_dummy.txt"))
+
+(defn output-dummy []
+  (str "resources/output_dummy.txt"))
+
 (deftest request-handler
   (testing "with response message"
     (is (= "HTTP/1.1 200 OK" (.statusLine handler/response))))
   (testing "with knows"
     (is (= false
-    	(handler/knows? (RequestMessage. "GET" "unknown_request"))))
+      (handler/knows? (RequestMessage. "GET" "unknown_request"))))
     (is (= true
-    	(handler/knows? (RequestMessage. "GET" "gato")))))
+      (handler/knows? (RequestMessage. "GET" "gato")))))
   (testing "with player-input"
     (is (= "1"
       (let [request (RequestMessage. "GET" "gato" "1")]
-          (.responseTo handler/gato request)
-          (slurp text/input)))))
+        (binding [text/input input-dummy, text/output output-dummy]
+          (.responseTo handler/tic-tac-toe request)
+          (slurp (text/input)))))))
   (testing "with tictac-output"
     (is (= "4"
       (let [request (RequestMessage. "GET" "gato" request-content)]
         (binding [text/get-content response-content]
-          (content (.responseTo handler/gato request))))))))
+          (content (.responseTo handler/tic-tac-toe request))))))))
