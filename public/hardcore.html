@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    #buttons {
+      text-align: center;
+    }
+    button {
+      font-size: 30px;
+      display: inline;
+      border: 2px solid;
+      border-radius: 10px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      border-style: hidden;
+      width:150px;
+      height:150px;
+      background-color: WhiteSmoke;
+      padding: 15px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    table th {
+      border: 5px solid black;
+      width:50px;
+      height:50px;
+    }
+    th:hover 
+    {
+      background-color: grey;
+    }
+  </style>
 </head>
 <body>
 
-<div id="demo">
-<h1>Player 1 Human or CPU?</h1>
-<button type="button" id="Human">Human</button>
-<button type="button" id="CPU">CPU</button> <br>
+<div id="demo" style='padding-left: 25px'>
+  <h1>Player 1 Human or CPU?</h1>
+  <div id="buttons">
+    <button type="button" id="Human">Human</button>
+    <button type="button" id="CPU">CPU</button> <br>
+  </div>
 </div>
 
 <script>
@@ -36,6 +73,7 @@ function playerInput(box) {
   $(document).ready(function(){
   $.post("/gato", box, function(result){
     $("h1").html(result);
+
     });
   });
 }

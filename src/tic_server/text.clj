@@ -1,8 +1,7 @@
 (ns tic-server.text
   (:gen-class))
 
-(defn ^:dynamic directory []
-  "textpipe-directory")
+(defn ^:dynamic directory [] "textpipe-directory")
 
 (defn ^:dynamic input []
   (str (directory) "input.txt"))

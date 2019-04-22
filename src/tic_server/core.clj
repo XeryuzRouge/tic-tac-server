@@ -6,9 +6,9 @@
 (defn thread [textpipe-directory]
   (Thread.
     (fn []
-    (binding [handler/directory (fn [] textpipe-directory)]
-      (println (handler/directory))
-      (ForeignMain. 5000 handler/tic-tac-toe)))))
+      (binding [handler/directory
+        (fn [] textpipe-directory)]
+          (ForeignMain. 5000 handler/tic-tac-toe)))))
 
 (defn -main
   [& args]

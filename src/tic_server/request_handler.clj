@@ -7,31 +7,30 @@
             [clojure.java.io :as io])
   (:gen-class))
 
-(defn ^:dynamic directory []
-    "textpipe-directory")
+(defn ^:dynamic directory [] "textpipe-directory")
 
 (def response
   (ResponseMessage. 200))
 
 (defn knows? [request]
   (if (= (.uri request) "gato")
-        true
-        false))
+    true
+    false))
 
 (defn ^:dynamic tictac-output [request]
   (binding [text/directory directory]
     (text/set-content (.body request))
-      (Thread/sleep 1000)
-        (.setBody response
-            (tic-tac/display (text/get-content)))
+    (Thread/sleep 1000)
+    (.setBody response
+      (tic-tac/display (text/get-content)))
     response))
 
 (def tic-tac-toe
   (reify RequestHandler
     (knows [this request]
-        (knows? request))
+      (knows? request))
     (responseTo [this request]
-        (tictac-output request))
+      (tictac-output request))
     (restricted [this]
-        (into-array ["nil"]))
+      (into-array ["nil"]))
     (setResourcesHandler [this resources-handler])))
